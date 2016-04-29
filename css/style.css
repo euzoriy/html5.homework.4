@@ -1,0 +1,38 @@
+/*=======fullscreen background example=======*/
+/*
+http://caniuse.com/
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	background: url(../images/reeds.gif) no-repeat fixed bottom left;
+	background-size: cover;
+}
+
+section {
+	width: 320px;
+	background: #eee;
+	opacity: .70;
+	padding: 20px;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+}
+
+section h1 {
+	font-size: 52px;
+	margin-bottom: 10px;
+	font-family: impact, verdana, sans-serif;
+	font-weight: normal;
+}
+
+section p {
+	font-family: verdana, sans-serif;
+	line-height: 24px;
+}
